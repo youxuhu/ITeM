@@ -1,11 +1,11 @@
 from test_migrator import TestMigrator
 
-def migrate_batch_intentions():
+def migrate_batch_intentions(ts=1, te=7):
     migrator = TestMigrator()
     #生成列表
     test_case = [
         (f'a{i}{j}', f'b{i}{k}',f'a{i}{l}')
-        for i in range(1, 7)
+        for i in range(ts, te)
         for j in range(1, 6)
         for k in range(1, 3)
         for l in range(1, 6)
@@ -20,4 +20,4 @@ def migrate_batch_intentions():
 
 
 if __name__ == '__main__':
-    migrate_batch_intentions()
+    migrate_batch_intentions(1, 7)
