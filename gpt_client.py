@@ -19,7 +19,7 @@ from util import get_current_package_name
 class GPTClient:
     MODEL = 'gpt-4-turbo'
     # TODO set your api key
-    API_KEY = ''
+    API_KEY = '4c2e01a8fbe542d5bfa6b7e71b03edb7.xY8aT04HSn64Iell'
 
     ACTION_SLEEP_INTERVAL = 20
 
@@ -27,6 +27,7 @@ class GPTClient:
 
     def __init__(self):
         openai.api_key = self.API_KEY
+        openai.api_base = "https://open.bigmodel.cn/api/paas/v4/"
 
     def generate_gui_event_prompt(self, action_trace, screen_before_path_list, screen_after_path_list):
         gui_event_prompt_list = []
