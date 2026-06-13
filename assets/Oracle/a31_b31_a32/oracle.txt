@@ -1,0 +1,2 @@
+<wait_until_element_presence,200,{'class': 'android.widget.TextView', 'resource-id': 'com.contextlogic.wish:id/sign_in_fragment_create_account_button', 'content-desc': '', 'text': 'New? Create an Account', 'index': 11}>
+<wait_until_element_presence,200,{'class': 'android.widget.EditText', 'resource-id': 'com.contextlogic.wish:id/create_account_fragment_email_text', 'content-desc': '', 'text': 'Email Address', 'index': 6}>

@@ -1,0 +1,99 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Drawer Opened",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.navigation.MainNavigationActivity",
+    "package": "com.abc.abcnews",
+    "event_type": "gui"
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "SCROLL_DOWN"
+    ],
+    "event_type": "SYS_EVENT"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.abc.abcnews:id/drawer_settings_textview",
+    "text": "Settings",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a61",
+    "package": "com.abc.abcnews",
+    "activity": ".ui.navigation.MainNavigationActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Settings\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.abc.abcnews:id/drawer_settings_textview",
+    "text": "Settings",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.navigation.MainNavigationActivity",
+    "package": "com.abc.abcnews",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.abc.abcnews:id/setting_feedback",
+    "text": "Provide feedback",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a61",
+    "package": "com.abc.abcnews",
+    "activity": ".ui.SettingsActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Provide feedback\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.abc.abcnews:id/setting_feedback",
+    "text": "Provide feedback",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.SettingsActivity",
+    "package": "com.abc.abcnews",
+    "event_type": "gui"
+  }
+]

@@ -1,0 +1,10 @@
+<Exact, click, (resource-id:com.android.browser:id/url, class:android.widget.EditText, content-desc:, text:https://www.google.com/webhp?client=ms-android-google&source=android-home), Empty>
+<Exact, click, (resource-id:com.android.browser:id/url, class:android.widget.EditText, content-desc:, text:https://www.google.com/webhp?client=ms-android-google&source=android-home), Empty>
+<Explore, click, (resource-id:com.android.browser:id/clear, class:android.widget.ImageView, content-desc:Clear input, text:), Empty>
+<Explore, click, (resource-id:com.android.browser:id/url, class:android.widget.EditText, content-desc:, text:Search or type URL), Empty>
+<Exact, input_and_enter, (resource-id:com.android.browser:id/url, class:android.widget.EditText, content-desc:, text:Search or type URL), https://www.baidu.com>
+<Explore, click, (resource-id:com.android.browser:id/more, class:android.widget.ImageButton, content-desc:More options, text:), Empty>
+<Explore, click, (resource-id:android:id/title, class:android.widget.TextView, content-desc:, text:Bookmarks), Empty>
+<Explore, back, (resource-id:, class:, content-desc:, text:), Empty>
+<Explore, click, (resource-id:com.android.browser:id/tab_switcher, class:android.widget.ImageButton, content-desc:Page manager, text:), Empty>
+<Exact, click, (resource-id:com.android.browser:id/newtab, class:android.widget.ImageButton, content-desc:Open new tab, text:), Empty>

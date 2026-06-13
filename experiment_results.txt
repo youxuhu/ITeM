@@ -1,0 +1,40 @@
+ITeM Comparison Run
+Started: 2026-05-28 14:21:46.039239
+================================================================================
+
+[14:21:46] Total migration tasks: 4
+[14:21:46] Skip trace: False
+[14:21:46] 
+============================================================
+[14:21:46] START: music (a71/b72 -> a72, a73, a74, a75)
+[14:21:46] ============================================================
+[14:21:46] [Stage 1/4] Tracing: a71 b72
+[14:28:45]   [OK] Trace completed (412.0s)
+[14:28:45] [Stage 2/4] Generating intentions: a71 b72
+[14:29:51]   [OK] Intentions completed (64.2s)
+[14:29:51]   --- a71/b72 -> a72 ---
+[14:29:51]   [Stage 3/4] Migrating events: a71/b72 -> a72
+[14:35:43]     [OK] Events migrated (342.1s)
+[14:35:43]   [Stage 4/4] Migrating oracles: a71/b72 -> a72
+[14:35:50]     [OK] Oracles migrated (7.4s)
+[14:35:50]   --- a71/b72 -> a73 ---
+[14:35:50]   [Stage 3/4] Migrating events: a71/b72 -> a73
+[14:56:56]     [OK] Events migrated (1230.1s)
+[14:56:56]   [Stage 4/4] Migrating oracles: a71/b72 -> a73
+[14:57:05]     [OK] Oracles migrated (8.5s)
+[14:57:05]   --- a71/b72 -> a74 ---
+[14:57:05]   [Stage 3/4] Migrating events: a71/b72 -> a74
+[15:03:06]     [FAIL] Events: 'NoneType' object has no attribute 'group'
+[15:03:06]   --- a71/b72 -> a75 ---
+[15:03:06]   [Stage 3/4] Migrating events: a71/b72 -> a75
+[15:07:25]     [OK] Events migrated (250.5s)
+[15:07:25]   [Stage 4/4] Migrating oracles: a71/b72 -> a75
+[15:07:36]     [OK] Oracles migrated (11.6s)
+[15:07:36] 
+============================================================
+[15:07:36] ALL COMPLETED (2674.6s)
+[15:07:36] ============================================================
+[15:07:36]   Success: 3
+[15:07:36]   Failed:  1
+[15:07:36]   Total:   4
+[15:07:36] Summary saved to experiment_summary.json

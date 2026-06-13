@@ -1,0 +1,11 @@
+<Explore, click, (resource-id:com.rainbowshops:id/button_sign_up, class:android.widget.Button, content-desc:, text:Join), Empty>
+<Explore, input, (resource-id:com.rainbowshops:id/text_first_name, class:android.widget.EditText, content-desc:, text:), First Name>
+<Explore, input, (resource-id:com.rainbowshops:id/text_last_name, class:android.widget.EditText, content-desc:, text:), Last Name>
+<Explore, input, (resource-id:com.rainbowshops:id/text_email, class:android.widget.EditText, content-desc:, text:), test@gmail.com>
+<Exact, click, (resource-id:com.rainbowshops:id/button_sign_up, class:android.widget.Button, content-desc:, text:Create Account), Empty>
+<Exact, input, (resource-id:com.rainbowshops:id/text_email, class:android.widget.EditText, content-desc:, text:test@gmail.com), test@gmail.com>
+<Skip>
+<Exact, input, (resource-id:com.rainbowshops:id/text_password, class:android.widget.EditText, content-desc:, text:), testPassword>
+<Exact, input, (resource-id:com.rainbowshops:id/text_last_name, class:android.widget.EditText, content-desc:, text:Last Name), Labfellow>
+<Exact, click, (resource-id:com.rainbowshops:id/text_first_name, class:android.widget.EditText, content-desc:, text:First Name), Empty>
+<Skip>

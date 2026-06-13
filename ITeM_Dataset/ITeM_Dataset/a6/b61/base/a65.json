@@ -1,0 +1,99 @@
+[
+  {
+    "class": "android.widget.ImageView",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "More options",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".presentation.home.ChannelNavigatorActivity",
+    "package": "com.dailymail.online",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.dailymail.online:id/title",
+    "text": "Settings",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a65",
+    "package": "com.dailymail.online",
+    "activity": ".presentation.home.ChannelNavigatorActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Settings\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.dailymail.online:id/title",
+    "text": "Settings",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".presentation.home.ChannelNavigatorActivity",
+    "package": "com.dailymail.online",
+    "event_type": "gui"
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "SCROLL_DOWN"
+    ],
+    "event_type": "SYS_EVENT"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "Send us feedback",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a65",
+    "package": "com.dailymail.online",
+    "activity": ".presentation.settings.SettingsActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Send us feedback\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "Send us feedback",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".presentation.settings.SettingsActivity",
+    "package": "com.dailymail.online",
+    "event_type": "gui"
+  }
+]

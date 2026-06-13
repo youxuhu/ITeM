@@ -1,0 +1,63 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.buzzfeed.android:id/menu_search",
+    "text": "",
+    "content-desc": "Search…",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.PagerActivity",
+    "package": "com.buzzfeed.android",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.buzzfeed.android:id/search_src_text",
+    "text": "Search BuzzFeed",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "send_keys",
+      "tiktok"
+    ],
+    "activity": ".activity.PagerActivity",
+    "package": "com.buzzfeed.android",
+    "event_type": "gui"
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "KEYBOARD_SEARCH"
+    ],
+    "event_type": "SYS_EVENT"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.buzzfeed.android:id/actionbar_title_text",
+    "text": "tiktok",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a61",
+    "package": "com.buzzfeed.android",
+    "activity": ".activity.BuffetSearchActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "text",
+      "tiktok"
+    ]
+  }
+]

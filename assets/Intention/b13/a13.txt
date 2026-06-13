@@ -1,0 +1,2 @@
+<Intent: click on the URL edittext to enter the URL "https://www.swjtu.edu.cn/" and navigate to that website>
+<Intent: input the URL "https://www.swjtu.edu.cn" into the URL edittext and press enter to navigate to that website>

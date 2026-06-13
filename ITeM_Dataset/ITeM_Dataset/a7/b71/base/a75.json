@@ -1,0 +1,146 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "player.phonograph.plus:id/action_search",
+    "text": "",
+    "content-desc": "Search",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "player.phonograph.ui.modules.main.MainActivity",
+    "package": "player.phonograph.plus",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "player.phonograph.plus:id/search_src_text",
+    "text": "   Search your library…",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a75",
+    "package": "player.phonograph.plus",
+    "activity": "player.phonograph.ui.modules.main.MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.EditText[@text=\"   Search your library…\"]"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "player.phonograph.plus:id/search_src_text",
+    "text": "   Search your library…",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "send_keys_and_enter",
+      "Black Bird"
+    ],
+    "activity": "player.phonograph.ui.modules.search.SearchActivity",
+    "package": "player.phonograph.plus",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "player.phonograph.plus:id/title",
+    "text": "Black Bird",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a75",
+    "package": "player.phonograph.plus",
+    "activity": "player.phonograph.ui.modules.search.SearchActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Black Bird\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "player.phonograph.plus:id/title",
+    "text": "Black Bird",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "player.phonograph.ui.modules.search.SearchActivity",
+    "package": "player.phonograph.plus",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.ImageView",
+    "resource-id": "player.phonograph.plus:id/mini_player_image",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "player.phonograph.ui.modules.main.MainActivity",
+    "package": "player.phonograph.plus",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "player.phonograph.plus:id/player_play_pause_fab",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "player.phonograph.ui.modules.search.SearchActivity",
+    "package": "player.phonograph.plus",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "player.phonograph.plus:id/player_play_pause_fab",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a75",
+    "package": "player.phonograph.plus",
+    "activity": "player.phonograph.ui.modules.search.SearchActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "id",
+      "player.phonograph.plus:id/player_play_pause_fab"
+    ]
+  }
+]

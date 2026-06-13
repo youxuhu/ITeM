@@ -1,0 +1,2 @@
+<Exact, click, (resource-id:com.android.browser:id/url, class:android.widget.EditText, content-desc:, text:https://www.google.com/webhp?client=ms-android-google&source=android-home), Empty>
+<Exact, input_and_enter, (resource-id:com.android.browser:id/url, class:android.widget.EditText, content-desc:, text:https://www.google.com/webhp?client=ms-android-google&source=android-home), https://www.swjtu.edu.cn>

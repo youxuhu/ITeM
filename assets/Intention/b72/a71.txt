@@ -1,0 +1,5 @@
+<Intent: click the "PLAYLISTS" tab to open the new playlist creation dialog>
+<Intent: Click the "More options" button to open the menu and then select "New playlist" to create a new playlist with the name "test">
+<Intent: Click the "New playlist" option from the menu to create a new playlist named "test">
+<Intent: Input "test" as the playlist name and press Enter to create the new playlist>
+<Intent: click the "CREATE" button to confirm creating the new playlist named "test">

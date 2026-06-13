@@ -1,0 +1,6 @@
+<Explore, click, (resource-id:, class:android.widget.TextView, content-desc:, text:Playlists), Empty>
+<Exact, click, (resource-id:org.oxycblt.auxio:id/sd_main_fab, class:android.widget.ImageButton, content-desc:, text:), Empty>
+<Skip>
+<Skip>
+<Skip>
+<Skip>

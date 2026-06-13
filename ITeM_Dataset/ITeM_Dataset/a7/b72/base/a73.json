@@ -1,0 +1,125 @@
+[
+  {
+    "class": "android.widget.LinearLayout",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Playlists",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".MainActivity",
+    "package": "org.oxycblt.auxio",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "Playlists",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a73",
+    "package": "org.oxycblt.auxio",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Playlists\"]"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "org.oxycblt.auxio:id/sd_main_fab",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".MainActivity",
+    "package": "org.oxycblt.auxio",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "org.oxycblt.auxio:id/sd_fab",
+    "text": "",
+    "content-desc": "Empty playlist",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".MainActivity",
+    "package": "org.oxycblt.auxio",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "org.oxycblt.auxio:id/playlist_name",
+    "text": "Playlist 1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "send_keys",
+      "test"
+    ],
+    "activity": ".MainActivity",
+    "package": "org.oxycblt.auxio",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "OK",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".MainActivity",
+    "package": "org.oxycblt.auxio",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "org.oxycblt.auxio:id/parent_name",
+    "text": "test",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a73",
+    "package": "org.oxycblt.auxio",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"test\"]"
+    ]
+  }
+]

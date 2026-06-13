@@ -1,0 +1,1 @@
+<wait_until_element_presence,200,{'class': 'android.widget.TextView', 'resource-id': 'kdk.android.simplydo:id/text1', 'content-desc': '', 'text': 'Sample Todo', 'index': 4}>

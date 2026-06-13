@@ -1,0 +1,3 @@
+<Intent: click the add to-do item FAB to create a new default todo item>
+<Intent: input "Sample Todo" into the to-do item description field>
+<Intent: click the make to-do floating action button to save the to-do item "Sample Todo" and reset the input field for a new entry>

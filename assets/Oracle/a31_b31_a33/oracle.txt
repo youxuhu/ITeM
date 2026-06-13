@@ -1,0 +1,2 @@
+<wait_until_element_presence,200,{'class': 'android.widget.Button', 'resource-id': 'com.rainbowshops:id/button_sign_up', 'content-desc': '', 'text': 'Join', 'index': 7}>
+<wait_until_element_presence,200,{'class': 'android.widget.EditText', 'resource-id': 'com.rainbowshops:id/text_email', 'content-desc': '', 'text': 'test@gmail.com', 'index': 6}>

@@ -1,0 +1,160 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "remix.myplayer:id/action_search",
+    "text": "",
+    "content-desc": "Search",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activity.MainActivity",
+    "package": "remix.myplayer",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "remix.myplayer:id/search_src_text",
+    "text": "   Search song artist album",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a72",
+    "package": "remix.myplayer",
+    "activity": ".ui.activity.SearchActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.EditText[@text=\"   Search song artist album\"]"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "remix.myplayer:id/search_src_text",
+    "text": "   Search song artist album",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "send_keys_and_enter",
+      "Black Bird"
+    ],
+    "activity": ".ui.activity.SearchActivity",
+    "package": "remix.myplayer",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "remix.myplayer:id/search_name",
+    "text": "Black Bird",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a72",
+    "package": "remix.myplayer",
+    "activity": ".ui.activity.SearchActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Black Bird\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "remix.myplayer:id/search_name",
+    "text": "Black Bird",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activity.SearchActivity",
+    "package": "remix.myplayer",
+    "event_type": "gui"
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "KEY_BACK"
+    ],
+    "event_type": "SYS_EVENT"
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "KEY_BACK"
+    ],
+    "event_type": "SYS_EVENT"
+  },
+  {
+    "class": "android.widget.ImageView",
+    "resource-id": "remix.myplayer:id/iv",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activity.MainActivity",
+    "package": "remix.myplayer",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.FrameLayout",
+    "resource-id": "remix.myplayer:id/playbar_play_pause",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activity.PlayerActivity",
+    "package": "remix.myplayer",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.FrameLayout",
+    "resource-id": "remix.myplayer:id/playbar_play_pause",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a71",
+    "package": "remix.myplayer",
+    "activity": ".ui.activity.PlayerActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "id",
+      "remix.myplayer:id/playbar_play_pause"
+    ]
+  }
+]

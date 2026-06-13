@@ -1,0 +1,2 @@
+<wait_until_element_presence,150,{'class': 'android.widget.Button', 'resource-id': 'com.rainbowshops:id/button_log_in', 'content-desc': '', 'text': 'Log In', 'index': 6}>
+<wait_until_element_presence,150,{'class': 'android.widget.EditText', 'resource-id': 'com.rainbowshops:id/text_password', 'content-desc': '', 'text': '', 'index': 5}>

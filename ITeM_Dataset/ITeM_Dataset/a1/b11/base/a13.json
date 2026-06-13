@@ -1,0 +1,60 @@
+[
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.stoutner.privacybrowser.standard:id/url_edittext",
+    "text": "https://duckduckgo.com/?kao=-1&kak=-1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.stoutner.privacybrowser.standard",
+    "activity": "com.stoutner.privacybrowser.activities.MainWebViewActivity",
+    "event_type": "gui",
+    "score": 0.5311482586816626,
+    "action": [
+      "click"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.stoutner.privacybrowser.standard:id/url_edittext",
+    "text": "https://duckduckgo.com/?kao=-1&kak=-1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.stoutner.privacybrowser.standard",
+    "activity": "com.stoutner.privacybrowser.activities.MainWebViewActivity",
+    "event_type": "gui",
+    "score": 0.5311482586816626,
+    "action": [
+      "send_keys_and_enter",
+      "https://www.swjtu.edu.cn"
+    ]
+  },
+  {
+    "class": "android.view.View",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "西南交通大学",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "stepping_events": [],
+    "package": "com.stoutner.privacybrowser.standard",
+    "activity": "com.stoutner.privacybrowser.activities.MainWebViewActivity",
+    "event_type": "oracle",
+    "score": 0.6,
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//*[@content-desc=\"西南交通大学\"]"
+    ]
+  }
+]

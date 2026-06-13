@@ -1,0 +1,3 @@
+<Intent: clear the bill amount field and input 56.6 to set the bill amount>
+<Intent: clear the tip percentage field and input 15 to set the tip percentage to 15%>
+<Intent: clear the number of people field and input 4 to set the number of people to 4>

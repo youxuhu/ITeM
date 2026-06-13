@@ -1,0 +1,153 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "org.oxycblt.auxio:id/action_search",
+    "text": "",
+    "content-desc": "Search",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".MainActivity",
+    "package": "org.oxycblt.auxio",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "org.oxycblt.auxio:id/search_edit_text",
+    "text": "Search your library…",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a73",
+    "package": "org.oxycblt.auxio",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.EditText[@text=\"Search your library…\"]"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "org.oxycblt.auxio:id/search_edit_text",
+    "text": "Search your library…",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "send_keys_and_enter",
+      "Black Bird"
+    ],
+    "activity": ".MainActivity",
+    "package": "org.oxycblt.auxio",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "org.oxycblt.auxio:id/song_name",
+    "text": "Black Bird",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a73",
+    "package": "org.oxycblt.auxio",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Black Bird\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "org.oxycblt.auxio:id/song_name",
+    "text": "Black Bird",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".MainActivity",
+    "package": "org.oxycblt.auxio",
+    "event_type": "gui"
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "KEY_BACK"
+    ],
+    "event_type": "SYS_EVENT"
+  },
+  {
+    "class": "android.widget.ImageView",
+    "resource-id": "org.oxycblt.auxio:id/playback_cover",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".MainActivity",
+    "package": "org.oxycblt.auxio",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "org.oxycblt.auxio:id/playback_play_pause",
+    "text": "",
+    "content-desc": "Play or pause",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".MainActivity",
+    "package": "org.oxycblt.auxio",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "org.oxycblt.auxio:id/playback_play_pause",
+    "text": "",
+    "content-desc": "Play or pause",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a73",
+    "package": "org.oxycblt.auxio",
+    "activity": ".MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "id",
+      "org.oxycblt.auxio:id/playback_play_pause"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "class": "android.widget.ImageView",
+    "resource-id": "com.buzzfeed.android:id/menu_user_image",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.PagerActivity",
+    "package": "com.buzzfeed.android",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.buzzfeed.android:id/menu_settings",
+    "text": "",
+    "content-desc": "Settings",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a62",
+    "package": "com.buzzfeed.android",
+    "activity": ".activity.ProfileActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "id",
+      "com.buzzfeed.android:id/menu_settings"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.buzzfeed.android:id/menu_settings",
+    "text": "",
+    "content-desc": "Settings",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.ProfileActivity",
+    "package": "com.buzzfeed.android",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "Send Feedback",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a62",
+    "package": "com.buzzfeed.android",
+    "activity": ".activity.SettingsActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Send Feedback\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "Send Feedback",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.SettingsActivity",
+    "package": "com.buzzfeed.android",
+    "event_type": "gui"
+  }
+]

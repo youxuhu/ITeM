@@ -1,0 +1,6 @@
+<Explore, click, (resource-id:android:id/button1, class:android.widget.Button, content-desc:, text:Accept), Empty>
+<Explore, long_click, (resource-id:com.tleapps.simpletipcalculator:id/editTextBill, class:android.widget.EditText, content-desc:, text:100.00), Empty>
+<Explore, click, (resource-id:com.tleapps.simpletipcalculator:id/editTextBill, class:android.widget.EditText, content-desc:, text:100.00), Empty>
+<Exact, input, (resource-id:com.tleapps.simpletipcalculator:id/editTextBill, class:android.widget.EditText, content-desc:, text:100.00), 56.6>
+<Exact, input, (resource-id:com.tleapps.simpletipcalculator:id/editTextTip, class:android.widget.EditText, content-desc:, text:15), 15>
+<Exact, input_and_enter, (resource-id:com.tleapps.simpletipcalculator:id/editTextSplit, class:android.widget.EditText, content-desc:, text:1), 4>

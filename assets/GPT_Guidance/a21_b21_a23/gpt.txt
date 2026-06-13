@@ -1,0 +1,4 @@
+<Explore, click, (resource-id:org.secuso.privacyfriendlytodolist:id/btn_skip, class:android.widget.Button, content-desc:, text:Skip), Empty>
+<Exact, click, (resource-id:org.secuso.privacyfriendlytodolist:id/fab_new_task, class:android.widget.ImageButton, content-desc:, text:), Empty>
+<Exact, input, (resource-id:org.secuso.privacyfriendlytodolist:id/et_new_task_description, class:android.widget.EditText, content-desc:, text:Description), Sample Todo>
+<Exact, click, (resource-id:org.secuso.privacyfriendlytodolist:id/bt_new_task_ok, class:android.widget.Button, content-desc:, text:Okay), Empty>

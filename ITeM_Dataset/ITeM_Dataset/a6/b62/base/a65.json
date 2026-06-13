@@ -1,0 +1,79 @@
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.dailymail.online:id/action_search",
+    "text": "Search",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".presentation.home.ChannelNavigatorActivity",
+    "package": "com.dailymail.online",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.dailymail.online:id/search_src_text",
+    "text": "Search MailOnline",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".presentation.search.SearchActivity",
+    "package": "com.dailymail.online",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.dailymail.online:id/search_src_text",
+    "text": "Search MailOnline",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "send_keys",
+      "tiktok"
+    ],
+    "activity": ".presentation.search.SearchActivity",
+    "package": "com.dailymail.online",
+    "event_type": "gui"
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "KEYBOARD_SEARCH"
+    ],
+    "event_type": "SYS_EVENT"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.dailymail.online:id/search_src_text",
+    "text": "tiktok",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a65",
+    "package": "com.dailymail.online",
+    "activity": ".presentation.search.SearchActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "text",
+      "tiktok"
+    ]
+  }
+]

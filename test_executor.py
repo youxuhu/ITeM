@@ -14,7 +14,7 @@ from selenium.webdriver import ActionChains
 
 # Run the test case, capture the necessary data to build the trace
 class TestExecutor:
-    ITeM_PATH = r'ITeM_Dataset'
+    ITeM_PATH = r'ITeM_Dataset/ITeM_Dataset'
 
     TRACE_PATH = r'assets/Trace'
 
@@ -34,6 +34,8 @@ class TestExecutor:
                     continue
                 base_folder_path = functionality_path / 'base'
                 for json_path in base_folder_path.glob('*'):
+                    if 'Zone.Identifier' in json_path.name:
+                        continue
                     app_tag = json_path.stem
                     if app_tag not in self.test_cases.keys():
                         self.test_cases[app_tag] = {}

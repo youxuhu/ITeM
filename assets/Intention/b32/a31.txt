@@ -1,0 +1,4 @@
+<Intent: click the "Sign In" button to attempt logging in without entering email and password, resulting in an authentication error dialog>
+<Intent: input "testPassword" into the password field to prepare for logging in>
+<Intent: input "test@gmail.com" into the email field to prepare for logging in>
+<Intent: click the "Sign In" button on the login screen to navigate to the sign-in form>

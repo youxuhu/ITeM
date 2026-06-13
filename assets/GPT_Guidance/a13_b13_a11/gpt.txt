@@ -1,0 +1,2 @@
+<Exact, click, (resource-id:acr.browser.lightning:id/search, class:android.widget.EditText, content-desc:, text:Search), Empty>
+<Exact, input_and_enter, (resource-id:acr.browser.lightning:id/search, class:android.widget.EditText, content-desc:, text:Search), https://www.swjtu.edu.cn>

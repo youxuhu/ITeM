@@ -1,0 +1,1 @@
+<wait_until_text_presence,100,text,16.27>

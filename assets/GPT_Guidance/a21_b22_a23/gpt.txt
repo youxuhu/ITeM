@@ -1,0 +1,9 @@
+<Explore, click, (resource-id:org.secuso.privacyfriendlytodolist:id/btn_skip, class:android.widget.Button, content-desc:, text:Skip), Empty>
+<Explore, click, (resource-id:org.secuso.privacyfriendlytodolist:id/fab_new_task, class:android.widget.ImageButton, content-desc:, text:), Empty>
+<Explore, click, (resource-id:org.secuso.privacyfriendlytodolist:id/bt_new_task_cancel, class:android.widget.Button, content-desc:, text:Cancel), Empty>
+<Explore, click, (resource-id:org.secuso.privacyfriendlytodolist:id/fab_new_task, class:android.widget.ImageButton, content-desc:, text:), Empty>
+<Exact, click, (resource-id:org.secuso.privacyfriendlytodolist:id/bt_new_task_cancel, class:android.widget.Button, content-desc:, text:Cancel), Empty>
+<Explore, click, (resource-id:org.secuso.privacyfriendlytodolist:id/fab_new_task, class:android.widget.ImageButton, content-desc:, text:), Empty>
+<Exact, input, (resource-id:org.secuso.privacyfriendlytodolist:id/et_new_task_name, class:android.widget.EditText, content-desc:, text:Name), Sample Todo>
+<Exact, click, (resource-id:org.secuso.privacyfriendlytodolist:id/bt_new_task_ok, class:android.widget.Button, content-desc:, text:Okay), Empty>
+<Exact, swipe_right, (resource-id:org.secuso.privacyfriendlytodolist:id/tv_exlv_task_name, class:android.widget.TextView, content-desc:, text:Sample Todo), Empty>

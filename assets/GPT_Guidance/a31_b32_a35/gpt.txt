@@ -1,0 +1,8 @@
+<Explore, click, (resource-id:com.yelp.android:id/hot_button_feed, class:android.widget.TextView, content-desc:Activity, text:Activity), Empty>
+<Explore, click, (resource-id:com.yelp.android:id/hot_button_profile, class:android.widget.TextView, content-desc:Me, text:Me), Empty>
+<Explore, click, (resource-id:com.yelp.android:id/log_in_button, class:android.widget.Button, content-desc:, text:Log In), Empty>
+<Exact, click, (resource-id:com.yelp.android:id/activity_login_btnLogin, class:android.widget.Button, content-desc:, text:Log In), Empty>
+<Explore, click, (resource-id:android:id/button3, class:android.widget.Button, content-desc:, text:OK), Empty>
+<Exact, input, (resource-id:com.yelp.android:id/activity_login_editPassword, class:android.widget.EditText, content-desc:, text:Password), testPassword>
+<Exact, input, (resource-id:com.yelp.android:id/activity_login_editUsername, class:android.widget.EditText, content-desc:, text:Email), test@gmail.com>
+<Exact, click, (resource-id:com.yelp.android:id/activity_login_btnLogin, class:android.widget.Button, content-desc:, text:Log In), Empty>

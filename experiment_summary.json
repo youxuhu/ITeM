@@ -1,0 +1,38 @@
+{
+  "started": "2026-05-28 15:07:36.678133",
+  "elapsed_sec": 2674.6,
+  "success": 3,
+  "failed": 1,
+  "total": 4,
+  "results": [
+    {
+      "label": "music",
+      "src": "a71",
+      "func": "b72",
+      "tgt": "a72",
+      "status": "success"
+    },
+    {
+      "label": "music",
+      "src": "a71",
+      "func": "b72",
+      "tgt": "a73",
+      "status": "success"
+    },
+    {
+      "label": "music",
+      "src": "a71",
+      "func": "b72",
+      "tgt": "a74",
+      "status": "failed",
+      "stage": "migrate_events"
+    },
+    {
+      "label": "music",
+      "src": "a71",
+      "func": "b72",
+      "tgt": "a75",
+      "status": "success"
+    }
+  ]
+}

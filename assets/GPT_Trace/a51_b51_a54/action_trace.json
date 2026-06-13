@@ -1,0 +1,1 @@
+[{"operation_type": "input", "bounds": "[457,585][752,666]", "resource-id": "com.zaidisoft.teninone:id/billAmountET", "content-desc": "", "text": "0"}, {"operation_type": "input", "bounds": "[457,703][752,784]", "resource-id": "com.zaidisoft.teninone:id/tipPercentET", "content-desc": "", "text": "0"}]

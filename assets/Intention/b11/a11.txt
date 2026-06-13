@@ -1,0 +1,2 @@
+<Intent: click on the search bar to input the URL "https://www.swjtu.edu.cn/" and navigate to the website>
+<Intent: input "https://www.swjtu.edu.cn" into the search bar and press enter to navigate to the website>

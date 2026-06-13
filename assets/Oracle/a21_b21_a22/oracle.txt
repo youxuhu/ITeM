@@ -1,0 +1,1 @@
+<wait_until_element_presence,200,{'class': 'android.widget.TextView', 'resource-id': 'douzifly.list:id/txt_thing', 'content-desc': '', 'text': 'Sample Todo', 'index': 3}>

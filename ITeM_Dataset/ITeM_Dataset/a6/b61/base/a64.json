@@ -1,0 +1,92 @@
+[
+  {
+    "class": "android.widget.FrameLayout",
+    "resource-id": "com.google.android.apps.magazines:id/og_selected_account_disc_apd",
+    "text": "",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "com.google.apps.dots.android.newsstand.home.HomeActivity",
+    "package": "com.google.android.apps.magazines",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.google.android.apps.magazines:id/og_text_card_title",
+    "text": "News settings",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a61",
+    "package": "com.google.android.apps.magazines",
+    "activity": "com.google.apps.dots.android.newsstand.home.HomeActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"News settings\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "com.google.android.apps.magazines:id/og_text_card_title",
+    "text": "Help & feedback",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "com.google.apps.dots.android.newsstand.home.HomeActivity",
+    "package": "com.google.android.apps.magazines",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.google.android.gms:id/gh_feedback_option",
+    "text": "Send feedback",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a64",
+    "package": "com.google.android.gms",
+    "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.Button[@text=\"Send feedback\"]"
+    ]
+  },
+  {
+    "class": "android.widget.Button",
+    "resource-id": "com.google.android.gms:id/gh_feedback_option",
+    "text": "Send feedback",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity",
+    "package": "com.google.android.gms",
+    "event_type": "gui"
+  }
+]

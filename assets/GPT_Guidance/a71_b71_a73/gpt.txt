@@ -1,0 +1,6 @@
+<Exact, click, (resource-id:org.oxycblt.auxio:id/action_search, class:android.widget.Button, content-desc:Search, text:), Empty>
+<Exact, input_and_enter, (resource-id:org.oxycblt.auxio:id/search_edit_text, class:android.widget.EditText, content-desc:, text:Search your library…), Black Bird>
+<Exact, click, (resource-id:org.oxycblt.auxio:id/song_name, class:android.widget.TextView, content-desc:, text:Black Bird), Empty>
+<Exact, back, (resource-id:, class:, content-desc:, text:), Empty>
+<Exact, click, (resource-id:org.oxycblt.auxio:id/playback_song, class:android.widget.TextView, content-desc:, text:Black Bird), Empty>
+<Exact, click, (resource-id:org.oxycblt.auxio:id/playback_play_pause, class:android.widget.Button, content-desc:Play or pause, text:), Empty>

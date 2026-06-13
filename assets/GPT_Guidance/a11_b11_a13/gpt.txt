@@ -1,0 +1,2 @@
+<Exact, back, (resource-id:, class:android.widget.EditText, content-desc:, text:), Empty>
+<Exact, input_and_enter, (resource-id:com.android.browser:id/url, class:android.widget.EditText, content-desc:, text:https://www.swjtu.edu.cn/), https://www.swjtu.edu.cn>

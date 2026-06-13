@@ -1,0 +1,2 @@
+<Intent: input "56.6" into the bill amount field to set the bill value for the tip calculation>
+<Intent: input "15" into the tip percentage field to set the tip percent for the calculation>

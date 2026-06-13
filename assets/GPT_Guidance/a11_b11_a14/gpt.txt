@@ -1,0 +1,19 @@
+<Explore, click, (resource-id:de.baumann.browser:id/dialog_text, class:android.widget.TextView, content-desc:, text:Project site: https://github.com/scoute-dich/Browser
+Changelog: https://github.com/scoute-dich/browser/blob/master/CHANGELOG.md
+
+Version: 5.8
+Please read the "Help dialog" for more information.
+
+▪ new: do not track header
+▪ new: + button in tab preview
+▪ new: save websites as PDF
+▪ new: show link in context menu
+▪ fix: not applying cookie whitelist when switching tabs
+▪ fix: scrolling issue
+▪ fix: screen rotation issues
+▪ updated: UI + dialogs
+▪ updated: Spanish translation (thanks to @Herman Nuñez)
+▪ updated: Chinese translation (thanks to @smallg0at)), Empty>
+<Explore, back, (resource-id:, class:, content-desc:, text:), Empty>
+<Exact, click, (resource-id:de.baumann.browser:id/main_omnibox_input, class:android.widget.EditText, content-desc:, text:Search or type URL), Empty>
+<Exact, input_and_enter, (resource-id:de.baumann.browser:id/main_omnibox_input, class:android.widget.EditText, content-desc:, text:Search or type URL), https://www.swjtu.edu.cn>

@@ -1,0 +1,5 @@
+<Skip>
+<Exact, input, (resource-id:kdk.android.simplydo:id/AddListEditText, class:android.widget.EditText, content-desc:, text:New List Name), Sample Todo>
+<Skip>
+<Explore, click, (resource-id:kdk.android.simplydo:id/AddListButton, class:android.widget.Button, content-desc:, text:Add), Empty>
+<Exact, swipe_right, (resource-id:kdk.android.simplydo:id/text1, class:android.widget.TextView, content-desc:, text:Sample Todo), Empty>

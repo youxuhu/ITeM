@@ -1,0 +1,125 @@
+[
+  {
+    "class": "android.widget.LinearLayout",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Playlists",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activity.MainActivity",
+    "package": "remix.myplayer",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "",
+    "text": "Playlists",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a72",
+    "package": "remix.myplayer",
+    "activity": ".ui.activity.MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Playlists\"]"
+    ]
+  },
+  {
+    "class": "android.widget.ImageView",
+    "resource-id": "remix.myplayer:id/btn_add",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activity.MainActivity",
+    "package": "remix.myplayer",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "android:id/input",
+    "text": "Playlist1",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "clear_and_send_keys",
+      "test"
+    ],
+    "activity": ".ui.activity.MainActivity",
+    "package": "remix.myplayer",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "remix.myplayer:id/md_buttonDefaultPositive",
+    "text": "CREATE",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activity.MainActivity",
+    "package": "remix.myplayer",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "remix.myplayer:id/cancel",
+    "text": "Cancel",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.activity.SongChooseActivity",
+    "package": "remix.myplayer",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "remix.myplayer:id/item_text1",
+    "text": "test",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a71",
+    "package": "com.poupa.vinylmusicplayer",
+    "activity": ".ui.activities.MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"test\"]"
+    ]
+  }
+]

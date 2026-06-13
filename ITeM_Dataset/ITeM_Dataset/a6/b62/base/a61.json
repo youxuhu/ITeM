@@ -1,0 +1,79 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Drawer Opened",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.navigation.MainNavigationActivity",
+    "package": "com.abc.abcnews",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.abc.abcnews:id/drawer_search",
+    "text": "Search",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.navigation.MainNavigationActivity",
+    "package": "com.abc.abcnews",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.abc.abcnews:id/drawer_search",
+    "text": "Search",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "send_keys",
+      "tiktok"
+    ],
+    "activity": ".ui.navigation.MainNavigationActivity",
+    "package": "com.abc.abcnews",
+    "event_type": "gui"
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "KEYBOARD_SEARCH"
+    ],
+    "event_type": "SYS_EVENT"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "com.abc.abcnews:id/search_box",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a61",
+    "package": "com.abc.abcnews",
+    "activity": ".ui.SearchActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "text",
+      "tiktok"
+    ]
+  }
+]

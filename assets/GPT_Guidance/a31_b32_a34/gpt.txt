@@ -1,0 +1,6 @@
+<Explore, click, (resource-id:, class:android.widget.ImageButton, content-desc:Navigate up, text:), Empty>
+<Exact, click, (resource-id:com.etsy.android:id/etsy_menu_text, class:android.widget.TextView, content-desc:, text:Sign In), Empty>
+<Explore, click, (resource-id:com.etsy.android:id/btn_sign_in_dialog, class:android.widget.Button, content-desc:, text:Sign In), Empty>
+<Exact, input, (resource-id:com.etsy.android:id/edit_password, class:android.widget.EditText, content-desc:, text:), testPassword>
+<Exact, input, (resource-id:com.etsy.android:id/edit_username, class:android.widget.EditText, content-desc:, text:Email or Username), test@gmail.com>
+<Exact, click, (resource-id:com.etsy.android:id/button_signin, class:android.widget.Button, content-desc:, text:Sign In), Empty>

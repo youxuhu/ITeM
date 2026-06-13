@@ -1,0 +1,2 @@
+<Exact, input, (resource-id:com.jpstudiosonline.tipcalculator:id/etBillTotal, class:android.widget.EditText, content-desc:, text:1), 56.6>
+<Exact, input, (resource-id:com.jpstudiosonline.tipcalculator:id/etTipAmount, class:android.widget.EditText, content-desc:, text:15), 15>

@@ -1,0 +1,153 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "",
+    "text": "",
+    "content-desc": "Navigate up",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".retromusic.activities.MainActivity",
+    "package": "code.name.monkey.retromusic",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "code.name.monkey.retromusic:id/searchView",
+    "text": "Search",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a74",
+    "package": "code.name.monkey.retromusic",
+    "activity": ".activities.MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.EditText[@text=\"Search\"]"
+    ]
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "code.name.monkey.retromusic:id/searchView",
+    "text": "Search",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "send_keys_and_enter",
+      "Black Bird"
+    ],
+    "activity": ".activities.MainActivity",
+    "package": "code.name.monkey.retromusic",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "code.name.monkey.retromusic:id/title",
+    "text": "Black Bird",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a74",
+    "package": "code.name.monkey.retromusic",
+    "activity": ".activities.MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Black Bird\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "code.name.monkey.retromusic:id/title",
+    "text": "Black Bird",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activities.MainActivity",
+    "package": "com.poupa.vinylmusicplayer",
+    "event_type": "gui"
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "KEY_BACK"
+    ],
+    "event_type": "SYS_EVENT"
+  },
+  {
+    "class": "android.widget.LinearLayout",
+    "resource-id": "code.name.monkey.retromusic:id/miniPlayerFragment",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activities.MainActivity",
+    "package": "code.name.monkey.retromusic",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "code.name.monkey.retromusic:id/playPauseButton",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activities.MainActivity",
+    "package": "code.name.monkey.retromusic",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "code.name.monkey.retromusic:id/playPauseButton",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a74",
+    "package": "code.name.monkey.retromusic",
+    "activity": ".activities.MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "id",
+      "code.name.monkey.retromusic:id/playPauseButton"
+    ]
+  }
+]

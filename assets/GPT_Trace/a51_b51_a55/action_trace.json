@@ -1,0 +1,1 @@
+[{"operation_type": "input", "bounds": "[336,420][736,511]", "resource-id": "com.jpstudiosonline.tipcalculator:id/etBillTotal", "content-desc": "", "text": "1"}, {"operation_type": "input", "bounds": "[336,329][736,420]", "resource-id": "com.jpstudiosonline.tipcalculator:id/etTipAmount", "content-desc": "", "text": "15"}]

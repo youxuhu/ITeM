@@ -1,0 +1,4 @@
+<Explore, click, (resource-id:org.mozilla.focus:id/skip, class:android.widget.Button, content-desc:, text:Skip), Empty>
+<Exact, input_and_enter, (resource-id:org.mozilla.focus:id/urlView, class:android.widget.EditText, content-desc:, text:Search or enter address), https://www.swjtu.edu.cn/>
+<Explore, click, (resource-id:org.mozilla.focus:id/display_url, class:android.widget.TextView, content-desc:, text:https://www.swjtu.edu.cn/), Empty>
+<Exact, input_and_enter, (resource-id:org.mozilla.focus:id/urlView, class:android.widget.EditText, content-desc:, text:https://www.swjtu.edu.cn/), Empty>

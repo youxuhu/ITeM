@@ -1,0 +1,5 @@
+<Explore, click, (resource-id:com.rainbowshops:id/button_log_in, class:android.widget.Button, content-desc:, text:Log In), Empty>
+<Exact, click, (resource-id:com.rainbowshops:id/button_sign_in, class:android.widget.Button, content-desc:, text:Sign In), Empty>
+<Exact, input, (resource-id:com.rainbowshops:id/text_password, class:android.widget.EditText, content-desc:, text:), testPassword>
+<Exact, input, (resource-id:com.rainbowshops:id/text_username, class:android.widget.EditText, content-desc:, text:), test@gmail.com>
+<Exact, click, (resource-id:com.rainbowshops:id/button_sign_in, class:android.widget.Button, content-desc:, text:Sign In), Empty>

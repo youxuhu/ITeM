@@ -1,0 +1,2 @@
+<wait_until_element_presence,200,>
+<wait_until_element_presence,200,{'class': 'android.widget.EditText', 'resource-id': 'android:id/title', 'content-desc': '', 'text': 'test.m3u', 'index': 17}>

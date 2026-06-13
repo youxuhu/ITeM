@@ -1,0 +1,4 @@
+<Intent: click the search bar to navigate to the default homepage (https://www.baidu.com)>
+<Intent: input "https://www.example.com" into the search bar and navigate to the website>
+<Intent: input "https://www.baidu.com" into the search bar and navigate to the new website>
+<Intent: navigate from the current web page (Baidu) back to the browser's home screen>

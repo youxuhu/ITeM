@@ -1,0 +1,11 @@
+<Skip>
+<Explore, click, (resource-id:com.yelp.android:id/hot_button_profile, class:android.widget.TextView, content-desc:Me, text:Me), Empty>
+<Explore, click, (resource-id:com.yelp.android:id/sign_up_button, class:android.widget.Button, content-desc:, text:Sign Up), Empty>
+<Explore, click, (resource-id:com.yelp.android:id/email_sign_up, class:android.widget.Button, content-desc:, text:Sign up with Email), Empty>
+<Exact, input, (resource-id:com.yelp.android:id/email_address, class:android.widget.EditText, content-desc:, text:Email), test@gmail.com>
+<Skip>
+<Exact, input, (resource-id:com.yelp.android:id/password, class:android.widget.EditText, content-desc:, text:Password), testPassword>
+<Explore, click, (resource-id:com.yelp.android:id/signup_next_button, class:android.widget.Button, content-desc:, text:Next), Empty>
+<Exact, input, (resource-id:com.yelp.android:id/last_name, class:android.widget.EditText, content-desc:, text:Last Name), Labfellow>
+<Exact, input, (resource-id:com.yelp.android:id/first_name, class:android.widget.EditText, content-desc:, text:First Name), Sealbot>
+<Skip>

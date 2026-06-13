@@ -1,3 +1,4 @@
+import json
 import re
 import shutil
 import time
@@ -16,10 +17,27 @@ from threshold import EXPLORATION_LIMIT
 from util import get_current_package_name
 
 
+def _load_api_config():
+    """Load LLM API config from moveDroid's config/agent_api.json"""
+    try:
+        base = Path(__file__).parent.parent / "moveDroid_text"
+        cfg_path = base / "config" / "agent_api.json"
+        if not cfg_path.exists():
+            print(f"[ITeM] API config not found: {cfg_path}, using defaults")
+            return "gpt-4-turbo", "", ""
+        with open(cfg_path) as f:
+            llm = json.load(f).get("llm", {})
+        model = llm.get("model", "gpt-4-turbo")
+        api_key = llm.get("api_key", "")
+        base_url = llm.get("base_url", "https://api.openai.com/v1")
+        return model, api_key, base_url
+    except Exception as e:
+        print(f"[ITeM] Failed to load API config: {e}")
+        return "gpt-4-turbo", "", ""
+
+
 class GPTClient:
-    MODEL = 'gpt-4-turbo'
-    # TODO set your api key
-    API_KEY = ''
+    MODEL, API_KEY, API_BASE = _load_api_config()
 
     ACTION_SLEEP_INTERVAL = 20
 
@@ -27,6 +45,7 @@ class GPTClient:
 
     def __init__(self):
         openai.api_key = self.API_KEY
+        openai.api_base = self.API_BASE
 
     def generate_gui_event_prompt(self, action_trace, screen_before_path_list, screen_after_path_list):
         gui_event_prompt_list = []

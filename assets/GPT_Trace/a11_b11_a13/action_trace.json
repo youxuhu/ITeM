@@ -1,0 +1,1 @@
+[{"operation_type": "back", "bounds": "[204,58][588,149]", "resource-id": "com.stoutner.privacybrowser.standard:id/url_edittext", "content-desc": "", "text": "https://html.duckduckgo.com/html"}, {"operation_type": "input_and_enter", "bounds": "[107,48][558,152]", "resource-id": "com.android.browser:id/url", "content-desc": "", "text": "https://www.swjtu.edu.cn/"}]

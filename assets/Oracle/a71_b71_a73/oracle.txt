@@ -1,0 +1,3 @@
+<wait_until_element_presence,200,{'class': 'android.widget.EditText', 'resource-id': 'org.oxycblt.auxio:id/search_edit_text', 'content-desc': '', 'text': 'Search your library…', 'index': 1}>
+<wait_until_element_presence,200,{'class': 'android.widget.TextView', 'resource-id': 'org.oxycblt.auxio:id/song_name', 'content-desc': '', 'text': 'Black Bird', 'index': 6}>
+<wait_until_element_presence,200,{'class': 'android.widget.Button', 'resource-id': 'org.oxycblt.auxio:id/playback_play_pause', 'content-desc': 'Play or pause', 'text': '', 'index': 14}>

@@ -1,0 +1,4 @@
+<Exact, click, (resource-id:com.contextlogic.wish:id/sign_in_fragment_sign_in_button, class:android.widget.TextView, content-desc:, text:Sign In), Empty>
+<Exact, click, (resource-id:, class:android.widget.Button, content-desc:, text:OK), Empty>
+<Exact, input, (resource-id:com.contextlogic.wish:id/sign_in_fragment_email_text, class:android.widget.EditText, content-desc:, text:Email), test@gmail.com>
+<Exact, click, (resource-id:com.contextlogic.wish:id/sign_in_fragment_sign_in_button, class:android.widget.TextView, content-desc:, text:Sign In), Empty>

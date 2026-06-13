@@ -1,0 +1,83 @@
+[
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "jp.gocro.smartnews.android:id/settingButton",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a61",
+    "package": "jp.gocro.smartnews.android",
+    "activity": ".activity.MainActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "id",
+      "jp.gocro.smartnews.android:id/settingButton"
+    ]
+  },
+  {
+    "class": "android.widget.ImageButton",
+    "resource-id": "jp.gocro.smartnews.android:id/settingButton",
+    "text": "",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.MainActivity",
+    "package": "jp.gocro.smartnews.android",
+    "event_type": "gui"
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "SCROLL_DOWN"
+    ],
+    "event_type": "SYS_EVENT"
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "jp.gocro.smartnews.android:id/titleTextView",
+    "text": "Write a review",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a63",
+    "package": "jp.gocro.smartnews.android",
+    "activity": ".activity.SettingActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "xpath",
+      "//android.widget.TextView[@text=\"Write a review\"]"
+    ]
+  },
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "jp.gocro.smartnews.android:id/titleTextView",
+    "text": "Write a review",
+    "content-desc": "",
+    "clickable": "false",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".ui.SettingsActivity",
+    "package": "jp.gocro.smartnews.android",
+    "event_type": "gui"
+  }
+]

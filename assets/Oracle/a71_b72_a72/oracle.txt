@@ -1,0 +1,2 @@
+<wait_until_element_presence,200,{'class': 'android.widget.TextView', 'resource-id': '', 'content-desc': '', 'text': 'PLAYLISTS', 'index': 6}>
+<wait_until_element_presence,200,{'class': 'android.widget.TextView', 'resource-id': 'remix.myplayer:id/item_text1', 'content-desc': '', 'text': 'test', 'index': 16}>

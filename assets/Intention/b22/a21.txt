@@ -1,0 +1,4 @@
+<Intent: click the "add to do item" floating action button to navigate from the add task screen back to the main todo list>
+<Intent: input (Sample Todo) into the todo text field to set the title of a new todo item>
+<Intent: click the "make to do" floating action button to save the newly created todo item and return to the main todo list>
+<Intent: swipe right on the "Sample Todo" item to delete the todo>

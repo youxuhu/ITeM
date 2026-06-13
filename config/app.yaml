@@ -160,8 +160,8 @@ a65:
 a71:
   apk_path: 'ITeM_Dataset/subject_apps/a7-music/a71-VinylMusicPlayer.apk'
   appPackage: 'com.poupa.vinylmusicplayer'
-  appActivity: 'com.poupa.vinylmusicplayer/com.poupa.vinylmusicplayer.ui.activities.MainActivity'
-  noReset: True
+  appActivity: '.ui.activities.MainActivity'
+
 
 a72:
   apk_path: 'ITeM_Dataset/subject_apps/a7-music/a72-APlayer.apk'

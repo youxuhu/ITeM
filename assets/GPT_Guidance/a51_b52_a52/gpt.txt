@@ -1,0 +1,4 @@
+<Explore, click, (resource-id:android:id/button2, class:android.widget.Button, content-desc:, text:Skip), Empty>
+<Exact, input, (resource-id:com.appsbyvir.tipcalculator:id/billEditText, class:android.widget.EditText, content-desc:, text:), 56.6>
+<Exact, input_and_enter, (resource-id:com.appsbyvir.tipcalculator:id/tipEditText, class:android.widget.EditText, content-desc:, text:15.0), 15>
+<Exact, input, (resource-id:com.appsbyvir.tipcalculator:id/splitBillEditText, class:android.widget.EditText, content-desc:, text:# of ways), 4>

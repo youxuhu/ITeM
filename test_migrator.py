@@ -22,7 +22,7 @@ class TestMigrator:
 
     ORACLE_PATH = r'assets/Oracle'
 
-    ITeM_PATH = r'ITeM_Dataset'
+    ITeM_PATH = r'ITeM_Dataset/ITeM_Dataset'
 
     def __init__(self):
         self.gpt_client = GPTClient()
@@ -91,6 +91,8 @@ class TestMigrator:
                     continue
                 base_folder_path = functionality_path / 'base'
                 for json_path in base_folder_path.glob('*'):
+                    if 'Zone.Identifier' in json_path.name:
+                        continue
                     app_tag = json_path.stem
                     if app_tag not in self.test_cases.keys():
                         self.test_cases[app_tag] = {}

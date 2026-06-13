@@ -1,0 +1,3 @@
+<Exact, click, (resource-id:com.woefe.shoppinglist:id/fab_add, class:android.widget.ImageButton, content-desc:, text:), Empty>
+<Exact, input, (resource-id:com.woefe.shoppinglist:id/new_item_description, class:android.widget.EditText, content-desc:, text:New Item), Sample Todo>
+<Exact, click, (resource-id:com.woefe.shoppinglist:id/button_add_new_item, class:android.widget.ImageButton, content-desc:Done, text:), Empty>

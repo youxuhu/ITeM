@@ -1,0 +1,3 @@
+<wait_until_element_presence,200,{'class': 'android.widget.EditText', 'resource-id': 'remix.myplayer:id/search_src_text', 'content-desc': '', 'text': '   Search song artist album', 'index': 1}>
+<wait_until_element_presence,200,{'class': 'android.widget.TextView', 'resource-id': 'remix.myplayer:id/search_name', 'content-desc': '', 'text': 'Black Bird', 'index': 4}>
+<wait_until_element_presence,200,>

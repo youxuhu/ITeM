@@ -1,0 +1,7 @@
+<Intent: click the "Create Account" button on the registration form to attempt account creation with the provided details (first name: "First Name", last name: "Last Name", email: "test@gmail.com", confirm email: "test@gmail.com") but with an empty password field, likely to trigger a validation error>
+<Intent: input "test@gmail.com" into the email field (id: create_account_fragment_email_text) as part of the account registration form>
+<Intent: clear the "Confirm Email" field and input "test@gmail.com" to ensure the confirm email matches the previously entered email address for account registration>
+<Intent: input "testPassword" into the password field to set a password for account creation>
+<Intent: input "Labfellow" into the last name field to set the last name for account registration>
+<Intent: input "Sealbot" into the first name field and then hide the keyboard, which navigates back to the login screen (LoginActivity) from the account creation screen>
+<Intent: click the "Create Account" button on the login screen to navigate to the account creation registration form>

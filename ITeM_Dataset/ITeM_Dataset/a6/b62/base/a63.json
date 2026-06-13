@@ -1,0 +1,63 @@
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "jp.gocro.smartnews.android:id/searchTextView",
+    "text": "Search News",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "click"
+    ],
+    "activity": ".activity.MainActivity",
+    "package": "jp.gocro.smartnews.android",
+    "event_type": "gui"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "jp.gocro.smartnews.android:id/search_src_text",
+    "text": "Search News",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "action": [
+      "send_keys",
+      "tiktok"
+    ],
+    "activity": ".search.SearchActivityy",
+    "package": "jp.gocro.smartnews.android",
+    "event_type": "gui"
+  },
+  {
+    "class": "SYS_EVENT",
+    "action": [
+      "KEYBOARD_SEARCH"
+    ],
+    "event_type": "SYS_EVENT"
+  },
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "jp.gocro.smartnews.android:id/search_src_text",
+    "text": "tiktok",
+    "content-desc": "",
+    "clickable": "true",
+    "password": "false",
+    "parent_text": "",
+    "sibling_text": "",
+    "tid": "a63",
+    "package": "jp.gocro.smartnews.android",
+    "activity": ".search.SearchActivity",
+    "ignorable": "false",
+    "event_type": "oracle",
+    "action": [
+      "wait_until_element_presence",
+      200,
+      "text",
+      "tiktok"
+    ]
+  }
+]

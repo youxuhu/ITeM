@@ -1,0 +1,5 @@
+<Exact, click, (resource-id:player.phonograph.plus:id/add_new_item, class:android.widget.ImageButton, content-desc:Add, text:), Empty>
+<Exact, click, (resource-id:, class:android.widget.EditText, content-desc:, text:New playlist), Empty>
+<Exact, click, (resource-id:, class:android.widget.EditText, content-desc:, text:New playlist), Empty>
+<Exact, input_and_enter, (resource-id:, class:android.widget.EditText, content-desc:, text:New playlist), test>
+<Exact, click, (resource-id:player.phonograph.plus:id/button_create, class:android.widget.Button, content-desc:, text:CREATE), Empty>

@@ -1,0 +1,4 @@
+<Exact, click, (resource-id:douzifly.list:id/fab_add, class:android.widget.ImageButton, content-desc:, text:), Empty>
+<Exact, input, (resource-id:douzifly.list:id/edit_text, class:android.widget.EditText, content-desc:, text:Title), Sample Todo>
+<Exact, click, (resource-id:douzifly.list:id/fab_add, class:android.widget.ImageButton, content-desc:, text:), Empty>
+<Skip>

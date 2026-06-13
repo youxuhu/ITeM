@@ -1,0 +1,7 @@
+<Explore, click, (resource-id:remix.myplayer:id/md_buttonDefaultNeutral, class:android.widget.TextView, content-desc:, text:IGNORE THIS VERSION), Empty>
+<Exact, click, (resource-id:remix.myplayer:id/action_search, class:android.widget.Button, content-desc:Search, text:), Empty>
+<Exact, input_and_enter, (resource-id:remix.myplayer:id/search_src_text, class:android.widget.EditText, content-desc:, text:   Search song artist album), Black Bird>
+<Exact, click, (resource-id:remix.myplayer:id/iv, class:android.widget.ImageView, content-desc:, text:), Empty>
+<Exact, back, (resource-id:, class:, content-desc:, text:), Empty>
+<Exact, click, (resource-id:remix.myplayer:id/iv, class:android.widget.ImageView, content-desc:, text:), Empty>
+<Exact, click, (resource-id:remix.myplayer:id/search_button, class:android.widget.ImageButton, content-desc:, text:), Empty>

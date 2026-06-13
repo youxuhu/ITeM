@@ -1,0 +1,6 @@
+<Intent: click the "Search" button to search for "Black Bird" in the music library and view the results>
+<Intent: press Enter in the search field after typing "Black Bird" to execute the search and navigate to the now-playing screen for that song>
+<Intent: click on the song title "Black Bird" to view its details (e.g., album or artist page)>
+<Intent: press the back button to navigate from the search results screen back to the main library view>
+<Intent: click the mini player image to open or revisit the now-playing screen for the currently playing song "Black Bird">
+<Intent: click the play/pause button to toggle playback of the currently playing song "Black Bird", which also clears the active search query>
